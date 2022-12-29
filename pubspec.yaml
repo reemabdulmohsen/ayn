@@ -1,4 +1,4 @@
-name: ayn
+name: ayn3
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -36,6 +36,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.6
+  flutter_settings_screens: ^0.3.1
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -59,10 +63,34 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  fonts:
+    - family: PNU
+      fonts:
+        - asset: asset/static/NotoKufiArabic-ExtraBold.ttf
+          weight: 500
+        - asset: asset/static/NotoKufiArabic-Bold.ttf
+          weight: 400
+        - asset: asset/static/NotoKufiArabic-Medium.ttf
+          weight: 300
+        - asset: asset/static/NotoKufiArabic-SemiBold.ttf
+          weight: 200  
+        - asset: asset/static/NotoKufiArabic-Light.ttf
+          weight: 100  
+          
+
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - asset/static/add.png
+    - asset/static/house.png
+    - asset/static/image-7.png
+    - asset/static/rabbit.png
+    - asset/static/setting.png
+    - asset/static/turtle.png
+    - asset/static/star.png
+    - asset/static/image2.png
+
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
